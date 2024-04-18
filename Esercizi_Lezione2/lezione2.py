@@ -24,3 +24,19 @@ name_lower: str = name.lower()
 name_upper: str = name.upper()
 
 print (f"{name}, {name_upper}, {name_lower}")
+
+
+
+#Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks: Albert Einstein once said, "A person who never made a mistake never tried anything new"
+
+#Questa è una variabile che contiene il nome di una persona 
+name: str= "Fabrizio Caramagna"
+
+#Questa è la citazione
+cit: str= "The sea is the only labyrinth that contains thousands of exits"
+
+print (f"{name}, once said {cit}")
+
+
+
+
