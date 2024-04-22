@@ -45,5 +45,18 @@ filename: str= "python_nothes.txt"
 
 print (filename.removesuffix(".txt"))
 
+#3-1. Names: Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
+# Definisco la lista dei nomi
+names = ["Gianluca", "Andrea", "Marco", "Giulia", "Alice"]
 
+# Stampo il nome di ogni persona 
+for name in names:
+    print(name)
 
+#3-2. Greetings: Start with the list you used in Exercise 3-1, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+#Lista dei nomi
+names = ["Gianluca", "Andrea", "Marco", "Giulia", "Alice"]
+
+#Stampo
+for name in names:
+    print(f"Hello, {name}! How are you today?")
