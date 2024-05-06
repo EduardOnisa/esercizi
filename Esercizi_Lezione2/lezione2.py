@@ -295,3 +295,17 @@ for person in people:
     print("Age:", person['age'])
     print("City:", person['city'])
     print() 
+
+#6-8. Pets: Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and as
+you do, print everything you know about each pet. 
+
+firstanimal = {"species": "dog", "owner": "Jack"}
+secondanimal = {"species": "rabbit", "owner": "Mark"}
+thirdanimal = {"species": "cat", "owner": "Harry"}
+
+pets = [firstanimal, secondanimal, thirdanimal]
+
+for animal in pets:
+    print("Species:", animal["species"])
+    print("Owner:", animal["owner"])
+    print() 
